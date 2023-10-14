@@ -13,7 +13,7 @@ div {
     justify-content: center;
     align-items: center;
 }
-p {
+#p {
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
@@ -23,15 +23,17 @@ p {
     border-radius: 10px;
 }
 button {
-    padding: 10px;
-    background-color: white;
+    background-color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
     border: none;
+    padding: 12px;
     border-radius: 10px;
     margin-bottom: 25px;
 }
 
 button:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 400ms;
-    border-radius: 5rem 15px 5rem 15px;
+    /* border-radius: 5rem 15px 5rem 15px; */
 }

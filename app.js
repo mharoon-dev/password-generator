@@ -26,13 +26,16 @@ function generatePassword() {
     }
     password.innerHTML = ''
     for (let i = 0; i < lengthOfPassword; i++) {
-        let p = document.querySelector('.p')
+        let p = document.getElementById('p')
             const random =  getRandomElement([alphabets,number,symmbols])
-            if (password == '') {
-                password.innerHTML += `your password :`
+                // password.innerHTML += `your password :`
                 p.innerHTML += `${getRandomElement(random)}`
-            } else {}
         }
-    }
+}
+function reset() {
+    let p = document.getElementById('p')
+    p.innerHTML = ''
+    
+}
 
 
